@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Confetti";
+    src: url('./../fonts/Confetti\ Stream.ttf');
+  }
+  .jumbotron {
+    background-color: lightgrey;
+    padding: 10px;
+  }
+  body {
+    background-image: url('https://st2.depositphotos.com/2065849/8816/i/950/depositphotos_88161222-stock-photo-whitewashed-brick-city-wall-for.jpg');
+  }
+  .goog {
+    background-image: url('https://st2.depositphotos.com/2065849/8816/i/950/depositphotos_88161222-stock-photo-whitewashed-brick-city-wall-for.jpg');
+    padding-left: 100px;
+  }
+  h1 {
+    font-family: "Confetti", cursive, sans-serif;
+    font-size: 150px;
+    color: aquamarine;
+    text-shadow: 1px 1px 0 #000,
+      -1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px -1px 0 #000,
+      0px 1px 0 #000,
+      0px -1px 0 #000,
+      -1px 0px 0 #000,
+      1px 0px 0 #000,
+      2px 2px 0 #000,
+      -2px 2px 0 #000,
+      2px -2px 0 #000,
+      -2px -2px 0 #000,
+      0px 2px 0 #000,
+      0px -2px 0 #000,
+      -2px 0px 0 #000,
+      2px 0px 0 #000,
+      1px 2px 0 #000,
+      -1px 2px 0 #000,
+      1px -2px 0 #000,
+      -1px -2px 0 #000,
+      2px 1px 0 #000,
+      -2px 1px 0 #000,
+      2px -1px 0 #000,
+      -2px -1px 0 #000;
+  }
+  h2 {
+    font-size: 50px;
+    font-family: "Confetti";
+  }
+  .card-body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: lightgrey;
+    font-size: 26px;
+    text-shadow: 1px 1px 0 #000,
+      -1px 1px 0 #000,
+      1px -1px 0 #000,
+      -1px -1px 0 #000,
+      0px 1px 0 #000,
+      0px -1px 0 #000,
+      -1px 0px 0 #000,
+      1px 0px 0 #000,
+      2px 2px 0 #000,
+      -2px 2px 0 #000,
+      2px -2px 0 #000,
+      -2px -2px 0 #000,
+      0px 2px 0 #000,
+      0px -2px 0 #000,
+      -2px 0px 0 #000,
+      2px 0px 0 #000,
+      1px 2px 0 #000,
+      -1px 2px 0 #000,
+      1px -2px 0 #000,
+      -1px -2px 0 #000,
+      2px 1px 0 #000,
+      -2px 1px 0 #000,
+      2px -1px 0 #000,
+      -2px -1px 0 #000;
+  }
+  #images {
+    box-shadow: 10px 10px 5px grey;
+  }
+  #map {
+    height: 850px;
+    width: 92%;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
