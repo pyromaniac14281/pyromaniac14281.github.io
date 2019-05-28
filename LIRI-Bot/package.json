@@ -1,0 +1,32 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "LIRI is a command line app for nodejs that will take parameters and give back data",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyromaniac14281/LIRI-Bot.git"
+  },
+  "keywords": [
+    "liri",
+    "week10",
+    "nodejs",
+    "assignment"
+  ],
+  "author": "Vinesh Pendyala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyromaniac14281/LIRI-Bot/issues"
+  },
+  "homepage": "https://github.com/pyromaniac14281/LIRI-Bot#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.1.1",
+    "request": "^2.88.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {}
+}

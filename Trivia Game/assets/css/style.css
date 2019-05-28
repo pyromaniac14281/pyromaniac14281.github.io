@@ -1,0 +1,63 @@
+body {
+	background: url("../images/question-marks.png");
+	font-size: 14px;
+	line-height: 34px;
+	color: #960c0c;
+}
+* {
+	box-sizing: border-box;
+}
+header, footer, section{
+	width: 75%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+header, footer{
+	background-color: rgb(253, 249, 0);
+	height: 100px;
+}
+header h1{
+	padding: 30px;
+	font-size: 40px;
+	font-style: bold;
+	font-weight: bold;
+}
+h2{
+	font-size: 30px;
+}
+ul{
+	text-align: auto;
+}
+.main-section{
+    background-color: #0c074d;
+    color: #fff;
+    opacity: 0.7;
+}
+button{
+	background-color: rgb(0, 255, 21);
+	width: 20%;
+	height: 20px;
+	opacity: 1 !important;
+	margin-top: 30px;
+}
+.question, .answers{
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#submit, #results, #restart, .question, .answers{
+	display: none;
+}
+
+.rules{
+	font-size: 20px;
+	font-style: bold;
+	font-weight: bold;
+}
+footer{
+	clear: both;
+	padding: 20px;
+	font-style: bold;
+}
