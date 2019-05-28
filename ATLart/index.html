@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+  </script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous">
+  </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="./assets/javascript/firebase.js"></script>
+        <script src="./assets/javascript/googlemaps.js"></script>
+        <title>ATLart</title>
+    </head>
+    <body>
+          
+            <div class="w3-content" style="max-width:1400px">
+
+                    <header id="title" class="w3-container w3-xlarge w3-padding-24">
+                      <h1>ATLart</h1>
+                      <a href="./html/googlemaps.html" id="map-button" class="w3-right w3-button w3-white w3-xlarge">Map</a>
+                 
+                    </header>
+                 
+                    <div class="w3-row">
+                      <div class="w3-half">
+                        <img src="./assets/images/streetart.jpg" style="width:100%; height: 400px">
+                        <img src="./assets/images/streetart2.jpg" style="width:100%; height: 400px">
+                      </div>
+                 
+                      <div class="w3-half">
+                        <img src="./assets/images/streetart3.jpg" style="width:100%; height:400px">
+                        <img src="./assets/images/streetart4.jpg" style="width:100%; height:400px">
+                 
+                      </div>
+                    </div>
+        <div class="container">
+            <div id="title3" class="jumbotron">
+                <h2 class="text-center">Submission Page</h2>
+            </div>
+            <div class="row">
+                <!-- Sign-Up Card-->
+                <div class="col-lg-10">
+                    <div class="card card-default">
+                        <div class="card-header">
+                        </div>
+                        <div class="card-body">
+                            <!-- Sign-up Form (note the various input "types")-->
+                            <form role="form">
+                                <div class="form-group row">
+                                    <label for="name-input">Artist:</label>
+                                    <input class="form-control" id="userName"
+                                        type="text" required>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="email-input">Piece Title:</label>
+                                    <input class="form-control" id="imageTitle"
+                                        type="text" required>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="age-input">Date picture taken:</label>
+                                    <input class="form-control" id="uploadDate"
+                                        type="date" required>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="age-input">Address(dont use commas):</label>
+                                    <input class="form-control" id="Address"
+                                        type="text" required>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="age-input">Description:</label>
+                                    <input class="form-control" id="Description"
+                                        type="text" required>
+                                </div>
+                                <div class="card">
+                                    <label class="file-upload-container"
+                                        for="file-upload">
+                                        <input id="file-upload" type="file">
+                                    </label>
+                                </div>
+                                <div>
+                                    <img src="" class="displayImages">
+                                </div>
+                                <button type="button" id="submit-button" class="btn btn-primary btn-lg">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="images">
+                <img src="assets/images/streetart5.jpg" style="width:85%" height="450px">
+                <img src="assets/images/streetart6.jpg" style="width:85%" height="450px">
+            </div>
+        </div>
+        <footer id="ft">
+                &copy; Copyright 2019 guacamoleClub
+            </footer>
+    </body>
+
+</html>
