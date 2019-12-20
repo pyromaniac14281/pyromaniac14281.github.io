@@ -3,9 +3,9 @@ html {
 }
 html, body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
+	color: #000000;
 	background-color: #efefef;
-	background: #efefef url("./Images/shattered.png");
+	background: #efefef url("../Images/back1.jpg");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,7 +64,7 @@ header .container {
 .nav {
 	width: 49%;
 	text-align: right;
-	color: #b1adb3;
+	color: #32014b;
 	font-weight: normal;
 }
 
@@ -75,7 +75,7 @@ header .container {
 }
 
 .nav ul li a {
-	color: #b1adb3;
+	color: #2b033f;
 	text-decoration: none;
 	-webkit-transition: color .4s;
 	transition: color .4s;
